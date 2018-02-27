@@ -69,7 +69,8 @@ body {
   font-size: 18px;
   font-weight: bold;
   color: #c0a064;
-  outline: none; }
+  outline: none;
+  border-radius: 0; }
   .bttn:hover, .header-bttn:hover {
     background-color: #dfdfdf;
     opacity: 0.6;
@@ -90,6 +91,7 @@ body {
 .contact-input {
   width: 100%;
   border: 1px solid #6c6a68;
+  border-radius: 0;
   border-bottom: none;
   padding: 10px 20px;
   background: transparent;
@@ -124,6 +126,7 @@ body {
 .contact-text {
   width: 100%;
   border: 1px solid #6c6a68;
+  border-radius: 0;
   padding: 10px 20px;
   background: transparent;
   resize: none;
@@ -183,11 +186,14 @@ body {
       flex-direction: row;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-      justify-content: space-between; } }
+      justify-content: space-between; }
+      .gallery-container div{
+        width:47%;
+        } }
 
 @media (max-width: 991px) {
   .gallery-photo {
-    width: 47%;
+    width: 100%;
     margin-bottom: 30px;
     margin-top: 30px; } }
 
