@@ -31,7 +31,7 @@ body {
 
 .header {
   padding: 0px;
-  background-image: url(img/bg-foto.png); }
+  background-image: url(../img/bg-foto.png); }
   @media (max-width: 991px) {
     .header {
       background-image: none;
@@ -52,7 +52,7 @@ body {
   background-color: #eaeaea; }
   @media (max-width: 991px) {
     .bg {
-      background-image: url(img/bg-foto.png);
+      background-image: url(../img/bg-foto.png);
       background-position-y: top;
       background-position-x: center; } }
 
@@ -230,36 +230,36 @@ body {
     height: 20px; }
 
 .icon-1, .footer-icon-1 {
-  background-image: url(img/nav-right.png);
+  background-image: url(../img/nav-right.png);
   background-position-x: -7px;
   background-position-y: 23px; }
 
 .icon-2, .footer-icon-2 {
-  background-image: url(img/nav-right.png);
+  background-image: url(../img/nav-right.png);
   background-position-x: -48px;
   background-position-y: 23px; }
 
 .icon-3, .footer-icon-3 {
-  background-image: url(img/nav-right.png);
+  background-image: url(../img/nav-right.png);
   background-position-x: -84px;
   background-position-y: 23px; }
 
 .icon-4, .footer-icon-4 {
-  background-image: url(img/nav-right.png);
+  background-image: url(../img/nav-right.png);
   background-position-x: 33px;
   background-position-y: 23px; }
 
 .footer-icon-1 {
-  background-image: url(img/icons.png); }
+  background-image: url(../img/icons.png); }
 
 .footer-icon-2 {
-  background-image: url(img/icons.png); }
+  background-image: url(../img/icons.png); }
 
 .footer-icon-3 {
-  background-image: url(img/icons.png); }
+  background-image: url(../img/icons.png); }
 
 .footer-icon-4 {
-  background-image: url(img/icons.png); }
+  background-image: url(../img/icons.png); }
 
 .padding-0 {
   padding: 0; }
